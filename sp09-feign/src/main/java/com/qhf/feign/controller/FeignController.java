@@ -36,7 +36,7 @@ public class FeignController {
 		return itemServcie.decreaseNumber(items);
 	}
 
-	/////////////////////////////////////////
+	/////////////////////////////////////////-----
 	
 	@GetMapping("/user-service/{userId}")
 	public JsonResult<User> getUser(@PathVariable Integer userId) {
